@@ -1,0 +1,18 @@
+<header>
+  <div class="left-logo">
+    <img src="./assets/avatar1.png">
+    <h2 routerLink="/">Angular Training</h2>
+    <ul class="right-menu">
+      <li class="menu" routerLink="fruits">Fruits</li>
+      <li class="menu" routerLink="vegetables">Vegetables</li>
+    </ul>
+    <div class="right-header">
+      <button class="button language-switcher" (click)="switchTranslate('en')"
+              [ngClass]="{'lang-selected': this.language === 'en'}">En
+      </button>
+      <button class="button language-switcher" (click)="switchTranslate('fr')"
+              [ngClass]="{'lang-selected': this.language === 'fr'}">Fr
+      </button>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,39 @@
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 1px 10px;
+  font-size: 15px;
+  color: white;
+}
+header .right-header {
+  float: right;
+}
+
+header .left-logo img{
+  width: 30px;
+  padding-top: 5px;
+}
+
+header .left-logo h2 {
+	margin: 0;
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+header .lang-selected {
+	background: red;
+}
+
+.right-menu {
+  display: inline-block;
+  float: right;
+}
+
+ul.header-menus {
+  list-style-type: none;
+}
+
+ul.header-menus li {
+  float: left;
+  padding: 10px;
+}
